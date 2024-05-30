@@ -9,14 +9,14 @@
 
 - Name: (whatever you like)
 - Region: asia-east1(Taiwan), Zone: a/b/c all ok
-- Machice: E2, Machice Type: e2-standard-4(4 vCPU, 2 core, 16 GB memory) (choose your own settings)
+- Machice: N2, Machice Type: n2-standard-4(4 vCPU, 2 core, 16 GB memory) (choose your own settings)
 
-![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/002_create_vm_page.png)
+![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/002_create_vm_page_v2.png)
 
 - Boot Disk Operating system: Ubuntu (will affect subsequent startup instructions)
-- Boot Disk Name: (whatever you like)
+- Boot Disk Version: Ubuntu 22.04 LTS
 - Boot Disk Size: 30 (choose your own settings)
-![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/003_create_vm_page_boot_disk.png)
+![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/003_create_vm_page_boot_disk_v2.png)
 
 - Networking tags: two tags, one for ssh port 22, one for flink port 8081(whatever you like but same as the firewall target tags set later)
 ![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/004_create_vm_page_advenced_network_tags.png)
