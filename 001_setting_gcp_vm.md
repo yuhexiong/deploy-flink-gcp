@@ -19,10 +19,10 @@
 ![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/003_create_vm_page_boot_disk_v2.png)
 
 - Networking tags: two tags, one for ssh port 22, one for flink port 8081(whatever you like but same as the firewall target tags set later)
-![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/004_create_vm_page_advenced_network_tags.png)
+![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/004_create_vm_page_advenced_network_tags_v2.png)
 
 - Networking interface: gke-network
 - Networking interface Subnetwork: subnet-asia-east1 IPv4(10.1.0.0/16)
 ![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/005_create_vm_page_advenced_network_interfaces.png)
 
-## Click 'CREATE'
+- click 'CREATE'
