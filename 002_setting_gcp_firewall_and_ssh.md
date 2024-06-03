@@ -27,7 +27,7 @@
 - Generate key on your computer
 - Metadata SSH KEYS Page add your public key
 
-![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/009_metadata_ssh_keys.png)
+![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/009_metadata_ssh_keys_v2.png)
 
 ## SSH VM
 
