@@ -67,7 +67,7 @@ $FLINK_HOME/bin/start-cluster.sh
 ```
 
 - open local web browser ${vm External IP address}:8081
-![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/010_flink_page.png)
+![image](./image/010_flink_page.png)
 
 ## stop Flink
 ```

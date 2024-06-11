@@ -5,7 +5,7 @@
 
 
 - use UI
-![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/011_submit_new_job_page.png)
+![image](./image/011_submit_new_job_page.png)
 
 - use curl
 ```
@@ -14,7 +14,7 @@ curl -X POST -H "Expect:" -F "jarfile=@"${jar file path}" http://${vm External I
 
 - use postman
 
-![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/012_upload_jar_by_postman.png)
+![image](./image/012_upload_jar_by_postman.png)
 
 - use scp into VM, check flink-web- full dictionary name first
 ```
@@ -34,10 +34,10 @@ mv ${jar name} ${uuid_v4}_${jar name}
 JAR_ID: ${uuid_v4}_${jar name}
 programArgsList: (if you have setting yaml)
 ```
-![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/013_run_job_by_postman.png)
+![image](./image/013_run_job_by_postman.png)
 
 
 
 ## See Running Jobs
 
-![image](https://github.com/yuhexiong/deploy-flink-gcp/blob/main/image/014_running_job.png)
+![image](./image/014_running_job.png)
